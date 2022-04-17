@@ -1,0 +1,54 @@
+
+
+/* #firstText{
+    position: absolute;
+    top: 10px;
+    left: 100px
+}
+
+#secondText{
+    position: absolute;
+    bottom: 10px;
+    left: 100px
+}
+
+.textContent{
+    position: absolute;
+    top: 0px;
+    margin-left:10%;
+    margin-right:10%;
+} */
+
+#meme{
+    width: 100%;
+}
+
+label{
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    display: block;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+#memeForm{  
+     /*  
+     W3SCHOOLS CITING
+    Round edges background
+    https://www.w3schools.com/css/css3_borders.asp
+    */
+    border-radius: 10px; 
+    background-color: beige; 
+}
+
+.title{
+    /* position: relative;
+    left: 900px; */
+   
+    padding-top: 10px;
+    text-align: center;
+}

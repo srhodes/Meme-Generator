@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meme App</title>
+</head>
+
+<body>
+   
+
+    <!-- <div class="predactor">
+        <div class="textContent">Text Content</div>
+        <img src="img/kingOfJungle.jpg" class="imageContent" id="lion" width="128" height="">
+        <br>
+        <img src="img/soarLikeAnEagle.jpg" id="eagle" width="128" height="">
+        <br>
+        <img src="img/jumpTheShark.jpg" id="shark" width="128" height="">
+        <br>
+    </div> -->
+
+
+    <!-- YOUTUBE CITING
+        Youtube CSS and HTML 5 - Text Overlay on Image
+        ‘https://www.youtube.com/watch?v=mHSNhYcHwUo
+     -->
+    <form id="memeForm">
+        <div class="meme-generator">
+            <!-- <h3 class="topMeme">This is a meme</h3>
+            <h3 class="bottomMeme">This is a meme</h3> -->
+            <h1 class="title">This is a meme page</h1>
+            <label>Select an Image</label>
+
+         <!-- 
+            MDN WEB DOC CITING
+            Embedded Image
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img
+          -->
+            
+          <!-- 
+            MDN WEB DOC CITING
+            input URL type
+            https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url
+           -->
+            <input type="url" name="url" size="30"
+            placeholder="https://images.unsplash.com/photo-1430990480609-2bf7c02a6b1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80">
+           
+            <label>Include a top text</label>
+           
+            <input type="text" id="firstText">
+            
+            <label>Include a bottom text</label>
+
+            
+            <input type="text" id="secondText">
+            
+            <!-- <canvas id="meme"></canvas> -->
+        </div>
+        
+            
+        <input type="Submit">
+    </form>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
